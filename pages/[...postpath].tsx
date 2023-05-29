@@ -93,7 +93,7 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:image" content={post.featuredImage.node.sourceUrl} />
 				<meta
 					property="og:image:alt"
-					content=className="post-container">{post.featuredImage.node.altText || post.title}
+					content={post.featuredImage.node.altText || post.title}
 				/>
 				<title>{post.title}</title>
 			</Head>
